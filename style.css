@@ -1,0 +1,268 @@
+body{
+    background-color:white;
+    border-top:40px solid #CD104D;
+    border-left:15px solid #CD104D;
+    border-right:10px solid #CD104D;
+    height:100vh;
+    
+    
+}
+
+.top-section{
+    background-color:whitesmoke;
+    height:30px;
+    width:1300px;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+}
+.nav-leftimg{
+    height:30px;
+    width:40px;
+    padding-top:15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+.input{
+    border-radius: 200px;
+    padding-top:5px;
+    padding:8px;
+    width:400px;
+    padding-left:20px; 
+    border-style: none;
+    background-color:lightgrey;
+}
+.profile-img{
+    height:33px;
+    width:33px;
+    border-radius: 30px;
+    margin-left:20px;
+    
+}
+.nav-mid{
+    margin-left:200px;
+    padding-bottom:20px;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left:400px;
+    padding: 10px;
+     
+}
+.nav-right p{
+    margin-left: 15px;
+    color: grey;
+    font-size:15px;
+    text-align: center;
+    padding-bottom:10px;
+    margin-top: 5px;
+    
+}
+.nav-right-firstimg{
+    margin-left:5px;
+    height:30px;
+    width:30px;
+    background-color:darkmagenta;
+    border-radius:20px;
+    
+}
+.nav-right-secondimg{
+    margin-left: 25px;
+    height:30px;
+    width:30px;
+    background-color:darkmagenta;
+    border-radius: 20px;
+}
+.sidebar{
+    background-color: black;
+    height:100vh;
+    width:150px;
+    color: white;
+    margin-top:0px;
+    padding-left:50px;
+    font-size:15px;
+    padding-top:20px;
+
+}
+.sidebar-left{
+    display: flex;
+    flex-direction:column ; 
+}
+.sidebar-left a{
+    text-decoration: none;
+    color: white;
+    margin:20px;
+}
+a:hover{
+    background-color: #CD104D;
+    width:50px;
+    border-radius:20px;
+    padding:20px;
+    transition:width 2s;
+}
+.footer{
+    padding-top:350px;
+}
+
+
+.image-section  img{
+    height:220px;
+    width:364px;   
+}
+.image-section{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding-left:200px;
+    margin-top:-677px;
+}
+.sectionbar{
+margin-top:-4px;
+border-bottom: 1px solid black;
+width:1300px;
+display: flex;
+flex-direction:row;
+justify-content: space-evenly;
+border-radius:100px;
+
+}
+
+.section-head-right {
+    display: flex; 
+    flex-direction: column;
+    width:610px;
+} 
+.section-head-left p{
+    color: grey;
+    padding-left:250px;
+}
+.no{
+    color:#CD104D;
+    padding-top:15px;
+    margin-right:2px;
+    text-align: right;
+    font-size: 20px;
+}
+.section-head-right-corner p{
+border: 1px solid darkmagenta;
+background-color:#CD104D;
+color: white;
+width:60px;
+height:20px;
+margin-top:-2px;
+margin-bottom: 0px;
+border-style: none;
+
+}
+.number{
+ margin-top:-20px;
+ margin-right:-450px;
+ padding: 5px;
+ 
+}
+.numberr{
+    margin-right: -450px;
+    padding:5px;
+}
+.paragraph-section{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:300px;
+    width:500px;
+    font-size: 15px;
+    
+}
+.list-section{
+    padding-left: 40px;
+}
+.profile-username img{
+    height:40px;
+    width:40px;
+    border-radius:30px;
+    margin-left:-20px;
+    padding-left: 2px;
+    border-style: groove;
+}
+.paragraph-section{
+    padding-left: 300px;
+    width:400px; 
+    font-size: 15px;
+    color:grey;
+}
+.right-header-section-top-paragraph{
+    width:100px;
+    padding-left: 700px;
+    margin-top:-330px;
+    font-size:15px;
+    color:grey;
+}
+.right-header-section-top-paragraph img{
+    height:33px;
+    width:33px;
+    border-radius: 30px;
+    margin-left:2px;
+}
+.right-header-section-bottom-paragraph{
+    width:100px;
+    padding-left: 700px;
+    margin-top:-120px;
+    font-size: 15px;
+    color:grey;
+}
+.right-header-section-bottom-paragraph img{
+    height:33px;
+    width:33px;
+    border-radius: 30px;
+    margin-left:2px;
+}
+.user-review {
+margin-top:-5px;
+margin-left:-5px;
+text-align: right;
+padding-left:2px;
+font-size: 15px;
+color:black;
+font-weight: bold;
+display: flex;
+}
+.user-review p{
+    margin-top: 2px;
+}
+.value{
+    color: #CD104D;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.final{
+    padding-left:900px ;
+    margin-top:-450px;
+    width:140px;
+    font-size: 20px;
+    color: grey;
+}
+.final button{
+    color:white;
+    border-radius: 40px;
+    background-color: #CD104D;
+    padding:20px;
+    border-style: none;
+    
+}
+.user-review1 {
+    margin-top:-5px;
+    margin-left:-5px;
+    text-align: right;
+    padding-left:2px;
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    display: flex;
+    }
+
+    .lastone{
+        font-size:15px;
+        color: #CD104D;
+    }
